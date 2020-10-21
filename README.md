@@ -177,7 +177,7 @@ Amazon Web Services Korea Youtube - (https://www.youtube.com/user/AWSKorea)
 
 윤석찬 Youtube - (https://www.youtube.com/c/channy)
 
-### 비공식 AWS 공인 솔루션스 아키텍트 -어소시에이트 수험가이드’
+### 비공식 AWS 공인 솔루션스 아키텍트 -어소시에이트 수험가이드
 
 github - (https://github.com/serithemage/AWSCertifiedSolutionsArchitectUnofficialStudyGuide)
 
