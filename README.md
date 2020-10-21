@@ -154,3 +154,33 @@
 이 책은 입문 단계에서 어려울 법한 개념들을 구구절절 설명하기보다는 간결하게 풀어가는 데 중점을 두었기 때문에 차근차근 읽고 따라 해보면 어느새 클라우드 서비스를 사용할 수 있을 것입니다. 
 
 서버리스 아키텍처를 구성할 때 가장 중요한 점은 클라우드에서 제공하는 여러 서비스를 적절하게 조합하여 구성하는 것입니다. 서비스를 직접 하나씩 사용해보고 어떤 역할을 하는지 알 수 있으며 그 서비스들을 직접 연결할 수 있도록 이 책이 도와줄 것입니다.
+
+## 참고자료
+
+### AWS Documentation
+
+AWS documentation - (https://docs.aws.amazon.com/)
+
+### AWS 한국 블로그
+
+AWS의 한국 블로그 - (https://aws.amazon.com/ko/blogs/korea/)
+
+### Facebook의 AWS 한국유저그룹
+
+AWSKRUG - (https://www.facebook.com/groups/awskrug/)
+
+### AWS Korea에서 운영하는 Amazon Web Services Korea 유튜브 채널
+
+Amazon Web Services Korea Youtube - (https://www.youtube.com/user/AWSKorea)
+
+### AWS Korea의 에반젤리스트로 활동하고 있는 윤석찬님의 채널
+
+윤석찬 Youtube - (https://www.youtube.com/c/channy)
+
+### 비공식 AWS 공인 솔루션스 아키텍트 -어소시에이트 수험가이드’
+
+github - (https://github.com/serithemage/AWSCertifiedSolutionsArchitectUnofficialStudyGuide)
+
+## 오탈자 제보 및 문의 사항
+
+- 깃허브 리파지토리 [issue 생성](https://github.com/bjpublic/aws_lambda/issues/new)
