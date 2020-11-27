@@ -1,0 +1,32 @@
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: >-
+  Lambda Test
+Resources:
+  CloudFormationLambdaFunction:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      Code:
+        ZipFile: !Join
+          - |+
+          - - import json
+            - 'def lambda_handler(event,context):'
+            - '    return ''Lambda Test'''
+      Handler: index.lambda_handler
+      Role: !GetAtt LambdaIAMRole.Arn
+      Runtime: python3.7
+      Timeout: 5
+
+  LambdaIAMRole:
+    Type: 'AWS::IAM::Role'
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service:
+                - lambda.amazonaws.com
+            Action:
+              - 'sts:AssumeRole'
+      Path: /
